@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="es">
+	<head> 
+
+		<meta charset="UTF-8">
+		<title> Barberia Alura </title>
+		<style>
+			h1{ padding-left: 30px; font-size: 30px; color: #00CC00}
+			h2{ color: green; text-align: center; border: 5px solid #0000FF; padding: 20px; margin: 40px }
+			.principal{  background: #CCCCCC; padding: 20px; } 
+			#banner{ width: 100%; }
+			em strong{ color: red; }
+			p{ text-align: center; font-size: 20px;color: black }	
+			.diferenciales{ background: #FFFFFF; color: green; padding: 30px; font-size: 20px }	
+			h3{ text-align: center; }
+			.items{  font-style: italic }
+			ul{ display: inline-block; vertical-align: top; width: 20%; margin-right: 15%; }
+			.imagenDiferenciales{ width: 50%; }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Barberia Alura</h1>
+		</header>
+		<img id="banner" src= "banner/banner.jpg">
+		<div class:"principal">
+			
+   			<h2> <strong>Baberia Alura</strong> </h2>
+
+			<p> Ubicada en el corazon de la ciudad, la <strong> Barberia Alura</strong> trae para el mercado lo que hay mejor para su cabello y barba. Fundada en 2020, la Barberia Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+
+			<p id= "mision"><em> Nuestra mision: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes.</strong></em></p>
+
+			<p> Ofrecemos profesionales experimentados que estan constantemente observando los cambios y movimientos en el mundo de la moda, para asi ofrecer a nuestros clientes las ultimas tendencias. el atendimiento posee un padron de excelencia y agilidad, garantizando calidad y satisfaccion de nuestros clientes.</p>
+		</div>
+		<div class="diferenciales">
+			<h3> Diferenciales </h3>
+			<ul>
+				<li class="items">Atencion personalizada a los clientes</li>
+				<li class="items">Espacio direferenciado</li>
+				<li class="items">Localizacion</li>
+				<li class="items">Profesionales calificados</li>
+			</ul>
+			<img src="diferenciales.jpg" class="imagenDiferenciales">
+		</div>
+	</body>
+
+</html>
